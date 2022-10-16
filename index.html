@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Portafolio JP</title>
+</head>
+<body>
+
+  <!-- seccion inicio -->
+
+  <section class="home" id="home">
+    <div class="container">
+      <header class="header">
+        <div class="container__header">
+          <h1 class="header__title">/JP/</h1>
+          <nav class="" id="container__nav">
+            <ul class="nav__links" id="nav__links">
+              <li class="nav__item"><a href="#home" class="item seleccionado" onclick="seleccionar(this)">HOME</a></li>
+              <li class="nav__item"><a href="#about" class="item" onclick="seleccionar(this)">ABOUT</a></li>
+              <li class="nav__item"><a href="#service" class="item" onclick="seleccionar(this)">SERVICES</a></li>
+              <li class="nav__item"><a href="#portafolio" class="item" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+              <li class="nav__item"><a href="#contact" class="item" onclick="seleccionar(this)">CONTACT</a></li>
+            </ul>
+          </nav>
+
+          <!-- iconos del menu responsive -->
+
+          <div class="icon__nav" id="icon__nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <!-- iconos de las redes sociales -->
+
+          <div class="icon__networks" id="icon__networks">
+            <a href="#" class="icon__item"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon__item"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="icon__item"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </header>
+      <div class="presentation" id="presentation">
+        <p class="welcome">Bienvenidos</p>
+        <h2 class="title">Soy <span class="name__title">Javier Peñaranda</span>, Desarrollador Web</h2>
+        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis sint nesciunt, voluptas sequi culpa mollitia laboriosam architecto minima iste ad, natus similique quasi dolorem maiores dolore debitis, vel vero consequuntur.</p>
+        <a href="#portafolio" class="description__link">Ir a Portafolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- seccion sobre mi -->
+
+  <section class="about" id="about">
+    <div class="container__image">
+      <img src="./assets/img/foto.jpg" class="image" alt="foto">
+    </div>
+    <div class="about__me">
+      <p class="about__me--title">Sobre Mi</p>
+      <h2 class="about__me--subtitle">Hola, soy <span class="about__me--span">Javier Peñaranda</span></h2>
+      <h3 class="about__me--sub--sub">Desarrollador Web</h3>
+      <p class="about__me--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam id, sed blanditiis natus in veritatis voluptates iure hic iste adipisci eum doloribus ab libero culpa, eius explicabo? Magnam, omnis!</p>
+      <p class="about__me--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, facere! Saepe officia enim nobis quas impedit expedita hic eum perspiciatis asperiores quae soluta, deserunt labore. Autem reiciendis veniam perferendis atque!</p>
+      <a href="#" class="btn__cv">Descarga CV</a>
+    </div>
+  </section>
+
+  <!-- seccion de servicio -->
+
+  <section class="services" id="service">
+    <h3 class="service__title">Mis Servicios</h3>
+    <div class="service__row">
+      <div class="service">
+        <span class="icon__service"><i class="fa-solid fa-code"></i></span>
+        <h4 class="service__subtitle">Diseño de Sitios Web</h4>
+        <hr class="hr">
+        <ul class="service__tag">
+          <li class="service__item">Web</li>
+          <li class="service__item">Graphic</li>
+          <li class="service__item">SEO</li>
+        </ul>
+        <p class="service__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat atque quasi? Voluptatum est aut voluptate porro.</p>
+      </div>
+
+      <div class="service">
+        <span class="icon__service"><i class="fa-solid fa-code"></i></span>
+        <h4 class="service__subtitle">Diseño de Sitios Web</h4>
+        <hr class="hr">
+        <ul class="service__tag">
+          <li class="service__item">Web</li>
+          <li class="service__item">Graphic</li>
+          <li class="service__item">SEO</li>
+        </ul>
+        <p class="service__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat atque quasi? Voluptatum est aut voluptate porro.</p>
+      </div>
+
+      <div class="service">
+        <span class="icon__service"><i class="fa-solid fa-code"></i></span>
+        <h4 class="service__subtitle">Diseño de Sitios Web</h4>
+        <hr class="hr">
+        <ul class="service__tag">
+          <li class="service__item">Web</li>
+          <li class="service__item">Graphic</li>
+          <li class="service__item">SEO</li>
+        </ul>
+        <p class="service__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat atque quasi? Voluptatum est aut voluptate porro.</p>
+      </div>
+    </div>
+    <div class="service__row">
+      <div class="service">
+        <span class="icon__service"><i class="fa-solid fa-code"></i></span>
+        <h4 class="service__subtitle">Diseño de Sitios Web</h4>
+        <hr class="hr">
+        <ul class="service__tag">
+          <li class="service__item">Web</li>
+          <li class="service__item">Graphic</li>
+          <li class="service__item">SEO</li>
+        </ul>
+        <p class="service__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat atque quasi? Voluptatum est aut voluptate porro.</p>
+      </div>
+
+      <div class="service">
+        <span class="icon__service"><i class="fa-solid fa-code"></i></span>
+        <h4 class="service__subtitle">Diseño de Sitios Web</h4>
+        <hr class="hr">
+        <ul class="service__tag">
+          <li class="service__item">Web</li>
+          <li class="service__item">Graphic</li>
+          <li class="service__item">SEO</li>
+        </ul>
+        <p class="service__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat atque quasi? Voluptatum est aut voluptate porro.</p>
+      </div>
+
+      <div class="service">
+        <span class="icon__service"><i class="fa-solid fa-code"></i></span>
+        <h4 class="service__subtitle">Diseño de Sitios Web</h4>
+        <hr class="hr">
+        <ul class="service__tag">
+          <li class="service__item">Web</li>
+          <li class="service__item">Graphic</li>
+          <li class="service__item">SEO</li>
+        </ul>
+        <p class="service__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat atque quasi? Voluptatum est aut voluptate porro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- seccion de skills -->
+
+  <div class="container__skills" id="container__skills">
+    <h3 class="skill__title">HABILIDADES</h3>
+    <div class="skill">
+      <div class="skill__info">
+        <p><span class="skill__list"></span>Html & Css</p>
+        <span class="percentage">95%</span>
+      </div>
+      <div class="barra">
+        <div class="barra-progreso1" id="html"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <p><span class="skill__list"></span>JavaScript</p>
+        <span class="percentage">70%</span>
+      </div>
+      <div class="barra">
+        <div class="barra-progreso2" id="js"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <p><span class="skill__list"></span>Base de Datos</p>
+        <span class="percentage">50%</span>
+      </div>
+      <div class="barra">
+        <div class="barra-progreso3" id="bdt"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <p><span class="skill__list"></span>React</p>
+        <span class="percentage">50%</span>
+      </div>
+      <div class="barra">
+        <div class="barra-progreso4" id="react"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- seccion portafolio -->
+
+  <section class="portafolio" id="portafolio">
+    <h3 class="portafolio__title">MIS PROYECTOS</h3>
+    <div class="portafolio__row">
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p1.jpg" class="porta__img" alt="p1">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p2.jpg" class="porta__img" alt="p2">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p3.jpg" class="porta__img" alt="p3">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portafolio__row">
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p4.jpg" class="porta__img" alt="p4">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p5.jpg" class="porta__img" alt="p5">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p6.jpg" class="porta__img" alt="p6">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portafolio__row">
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p7.jpg" class="porta__img" alt="p7">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p8.jpg" class="porta__img" alt="p8">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+
+      <div class="portafolio__proyects">
+        <div class="overlay"></div>
+        <img src="./assets/img/p9.jpg" class="porta__img" alt="p9">
+        <div class="portafolio__info">
+          <h4 class="portafolio__subtitle">Description del Proyecto</h4>
+          <p class="portafolio__paragraph">Diseño Web</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- seccion contacto -->
+
+  <section class="contact" id="contact">
+    <h3 class="contact__title">Contactanos ahora</h3>
+    <div class="container__form">
+      <form action="">
+        <div class="row mid">
+          <input type="text" placeholder="Nombre Completo" class="input__mid">
+          <input type="text" placeholder="Dirección de Email" class="input__mid">
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Tema..." class="input__full">
+        </div>
+        <div class="row">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ..." class="input__full"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar Mensaje" class="btn__send">
+      </form>
+    </div>
+  </section>
+
+  <!-- seccion footer -->
+
+  <footer class="footer" id="footer">
+    <p class="footer__paragraph">By Javier 2022 &reg;</p>
+    <div class="icon__networks" id="icon__networks">
+      <a href="#" class="icon__footer "><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="icon__footer "><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="icon__footer "><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/678c90d17e.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
