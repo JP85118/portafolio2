@@ -1,12 +1,12 @@
 //Funcion que se me aplica el estilo a la opcion seleccionada en el menu y quita la previa seleccion 
 function seleccionar(nav__links){
   let opciones = document.querySelectorAll("#nav__links a");
-  opciones[0].className = "";
-  opciones[1].className = "";
-  opciones[2].className = "";
-  opciones[3].className = "";
-  opciones[4].className = "";
-  nav__links.className = "seleccionado"
+  opciones[0].className = "item";
+  opciones[1].className = "item";
+  opciones[2].className = "item";
+  opciones[3].className = "item";
+  opciones[4].className = "item";
+  nav__links.className = "item seleccionado"
 
   //hacemos desaparecer el menu una vez que se ha seleccionado una opcion en el modo responseve
   let x = document.getElementById("container__nav");
